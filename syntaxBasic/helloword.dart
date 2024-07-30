@@ -6,3 +6,5 @@ void main() {
 
 // The main() function is the entry point of a Dart program.
 // void is the return type of the main() function, and it means that the function does not return any value.
+
+// The print() function is used to print a message to the console.
