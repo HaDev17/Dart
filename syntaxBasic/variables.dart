@@ -18,7 +18,17 @@ final String name2 = "Habib";
 // we can also use the const keyword to declare a variable whose value cannot be changed.
 const String name3 = "Habib";
 
+// Late variables are used when the value of the variable is not known at the time of declaration.
+late String description;
+// Or you can use ? to declare a nullable variable.
+String? text;
 
-// The Object type can store any type of value. 
-// It is the parent class of all the classes in Dart.
+void main() {
+  description = 'Feijoada!';
+  text = 'Hello, World!';
+  print(description);
+  print(text);
+}
 
+// it is also possible to declare multiple variables of the same type in a single line.
+String name4 = "Habib", address = "Djelfa";
