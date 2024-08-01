@@ -76,3 +76,10 @@ void main() {
       print('Invalid grade');
   }
 }
+
+
+// If the code is short we can write the if syntax like this :
+// if (condition) your code ;
+// or :
+// condition ? code to be executed if the condition is true : code to be executed if the condition is false;
+

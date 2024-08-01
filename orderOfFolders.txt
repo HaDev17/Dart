@@ -1,0 +1,15 @@
+The order of folders :
+1  -SyntaxBasic
+2  -BasicTypes
+3  -ControlFlow
+4  -Functions
+5  -Classes
+6  -AdvancedClasses
+7  -NullSafety
+8  -Exceptions
+9  -Collections
+10 -Iterables
+11 -AsynchronousProgramming
+12 -Libraries&Packages
+13 -DartRecordes
+14 -DartLibraries
