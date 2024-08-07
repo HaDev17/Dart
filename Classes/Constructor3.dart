@@ -62,7 +62,7 @@ class Point1 {
 // we can also forward the constructor to another constructor like this:
 // Point.origin() : this(0, 0);
 
-// so the origin constructor will call the constructor with parameters and pass 0, 0 to it.
+// so the origin constructor will call the constructor with parameters and pass (0, 0) to it.
 
 // Applying the above concepts in the main function:
 void main() {
