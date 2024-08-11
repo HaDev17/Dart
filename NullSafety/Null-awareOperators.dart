@@ -36,6 +36,22 @@ void main() {
 
   // Null-aware access & method invocation operator "?."
   String? text;
-  print(text?.length);
-  print(text?.toLowerCase());
+  print(text?.length); // null
+  print(text?.toLowerCase()); // null
+
+  // Null assertion operator "!" :
+  // It's used to tell Dart that an expression definitely isn't null
+
+  String? nullableString = 'Hello world !';
+  String nonNulllableString = nullableString!;
+  print(nonNulllableString);
+
+  // Null-aware index operator "?[]" :
+
+  List<int>? myList = [1, 3, 5, 7];
+  print(myList[3]);
+  myList = null;
+  print(myList?[2]);
+
+  // and the rest of operator are also easy to understand, so jsut search about them
 }
